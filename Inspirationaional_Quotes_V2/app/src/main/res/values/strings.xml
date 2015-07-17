@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Inspirationaional_Quotes_V2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="intro_message">Welcome to <b>Scheduler</b>!
+        This sample demonstrates how you can schedule an alarm that causes a service to
+        be started. This is useful when you want to schedule alarms that initiate
+        long-running operations. Click START ALARM to activate an alarm to check
+        the Google home page for a custom doodle once a day. If the app finds a doodle,
+        it posts a \"Doodle Alert\" as a notification. Click CANCEL ALARM to cancel the
+        alarm. Once the alarm is active, it automatically restarts when the device is
+        rebooted.</string>
+    <string name="start_text">Start Alarm</string>
+    <string name="cancel_text">Cancel Alarm</string>
+    <string name="doodle_alert">Doodle Alert</string>
+    <string name="doodle_found">There is a Google doodle today!!</string>
+    <string name="no_doodle">No Google doodle today.</string>
+    <string name="connection_error">Connection error.</string>
+    <item name="start_action" type="id">Hello</item>
+
+
+    <string-array name="Quotes">
+        <item>If opportunity doesn\'t knock, build a door.- Milton Berle</item>
+        <item>Change your thoughts and you change your world. -Norman Vincent Peale</item>
+        <item>Believe you can and you\'re halfway there. -Theodore Roosevelt</item>
+        <item>Give me a fulcrum and a big enough lever and I will move the Earth - Archimedes</item>
+        <item>I can\'t change the direction of the wind, but I can adjust my sails to always reach my destination.</item>
+        <item>Perfection is not attainable, but if we chase perfection we can catch excellence.</item>
+        <item>Don\'t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.</item>
+        <item>There are two ways of spreading light: to be the candle or the mirror that reflects it.</item>
+        <item>I hated every minute of training, but I said, Don\'t quit. Suffer now and live the rest of your life as a champion.</item>
+        <item>If you believe in yourself and have dedication and pride - and never quit, you\'ll be a winner. The price of victory is high but so are the rewards.</item>
+        <item>Don\'t judge each day by the harvest you reap but by the seeds that you plant.</item>
+        <item>Keep your face always toward the sunshine - and shadows will fall behind you.</item>
+        <item>Thousands of candles can be lighted from a single candle, and the life of the candle will not be shortened. Happiness never decreases by being shared.\n" +
+                        "Buddha</item>
+        <item>If you always put limit on everything you do, physical or anything else. It will spread into your work and into your life. There are no limits. There are only plateaus, and you must not stay there, you must go beyond them.\n" +
+                        "Bruce Lee</item>
+        <item>Your big opportunity may be right where you are now.\n" +
+                        "Napoleon Hill</item>
+        <item>With self-discipline most anything is possible.\n" +
+                        "Theodore Roosevelt</item>
+        <item>Happiness is a butterfly, which when pursued, is always just beyond your grasp, but which, if you will sit down quietly, may alight upon you.\n" +
+                        "Nathaniel Hawthorne</item>
+        <item>What great thing would you attempt if you knew you could not fail?\n" +
+                        "Robert H. Schuller</item>
+        <item>It is never too late to be what you might have been.\n" +
+                        "George Eliot</item>
+        <item>It does not matter how slowly you go as long as you do not stop.\n" +
+                        "Confucius</item>
+        <item>Things do not happen. Things are made to happen.\n" +
+                        "John F. Kennedy</item>
+        <item>With the new day comes new strength and new thoughts.\n" +
+                        "Eleanor Roosevelt</item>
+        <item>You are never too old to set another goal or to dream a new dream.\n" +
+                        "C. S. Lewis\n</item>
+        <item>Don\'t watch the clock; do what it does. Keep going.\n" +
+                        "Sam Levenson\n</item>
+        <item>A creative man is motivated by the desire to achieve, not by the desire to beat others.\n" +
+                        "Ayn Rand\n</item>
+        <item>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.\n" +
+                        "Norman Vincent Peale</item>
+        <item>The secret of getting ahead is getting started.\n" +
+                        "Mark Twain</item>
+        <item>We may encounter many defeats but we must not be defeated.\n" +
+                        "Maya Angelou</item>
+
+    </string-array>
+</resources>
