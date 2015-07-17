@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
-
 import java.util.Random;
 
 
@@ -29,24 +28,13 @@ public class MainActivity extends Activity {
 
         alarm.setAlarm(this);
 
-        TextView textView = (TextView)findViewById(R.id.textView);
+        TextView textView = (TextView) findViewById(R.id.textView);
 
-        textView.setText(randomizer());
+        DailyQuote dq = new DailyQuote(getResources().getStringArray(R.array.Quotes));
+        textView.setText(dq.getDailyQuote());
 
     }
 
-
-    public String randomizer(){
-        Resources res = getResources();
-        String[] Quotes = res.getStringArray(R.array.Quotes);
-        Random random = new Random();
-        //creates a method of the Random Class
-        int randomNumber = random.nextInt(Quotes.length);
-        //variable randomNumber is assigned a random number from 1-3
-        String Quote = Quotes[randomNumber];
-        //the string variable Quote has a string from the array Quotes. The quote that is chosen is the one whose index number matches the random number chosen
-        return Quote;
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
